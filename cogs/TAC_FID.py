@@ -57,7 +57,7 @@ async def UpdateCollection(key,val,skey,nval):
 	else:
 		print('shouldn\'t happen\n%s-%s\n%s'%(key,val,res))
 
-class TAC_Discord_Cog:
+class TAC_Discord_Cog(commands.Cog):
 	def __init__(self, bot):
 		self.bot = bot
 

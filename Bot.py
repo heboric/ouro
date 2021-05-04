@@ -64,8 +64,8 @@ if __name__ == '__main__':
 loop = asyncio.get_event_loop()
 
 #Create each bot task
-loop.create_task(TAC_DISCORD.start(environ.get('DISCORD_BOT_TOKEN_ROLES'), bot=True, reconnect=True, case_sensitive=False))
-loop.create_task(TAC_BOT.start(environ.get('DISCORD_BOT_TOKEN'), bot=True, reconnect=True, case_sensitive=False))
+loop.create_task(TAC_DISCORD.start(environ.get('DISCORD_BOT_TOKEN_ROLES'), bot=True, reconnect=True))
+loop.create_task(TAC_BOT.start(environ.get('DISCORD_BOT_TOKEN'), bot=True, reconnect=True))
 
 #Run loop and catch exception to stop it
 try:

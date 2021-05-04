@@ -27,7 +27,7 @@ async def UpdateDB(key,val,skey,nval):
 	else:
 		print('shouldn\'t happen\n%s-%s\n%s'%(key,val,res))
 
-class The_Alchemist_Code_Cog:
+class The_Alchemist_Code_Cog(commands.Cog):
 	def __init__(self, bot):
 		self.bot = bot
 		self.bot.remove_command('help')

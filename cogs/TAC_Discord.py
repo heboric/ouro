@@ -43,7 +43,7 @@ roles=[]
 # 				]
 # discord.Embed.ConvertFields=ConvertFields
 
-class TAC_Discord_Cog:
+class TAC_Discord_Cog(commands.Cog):
 	def __init__(self, bot):
 		self.bot = bot
 

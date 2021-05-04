@@ -8,7 +8,7 @@ import aiohttp
 import datetime
 import re
 
-class Spy_Cog:
+class Spy_Cog(commands.Cog):
 	def __init__(self, bot):
 		self.bot = bot
 

@@ -51,7 +51,7 @@ if __name__ == '__main__':
 	TAC_BOT.load_extension('cogs.The_Alchemist_Code')
 	TAC_BOT.load_extension('cogs.Spy')
 	TAC_DISCORD.load_extension('cogs.TAC_Discord')
-	#TAC_DISCORD.load_extension('cogs.TAC_FID')
+	TAC_DISCORD.load_extension('cogs.TAC_FID')
 	TAC_DISCORD.load_extension('cogs.Spy')
 	# for extension in initial_extensions:
 	# 	try:
